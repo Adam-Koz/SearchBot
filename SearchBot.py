@@ -40,4 +40,4 @@ def SendMail():
     server.quit()
 while(True):
     CheckPrice()
-    time.sleep(10)
+    time.sleep(1800)
