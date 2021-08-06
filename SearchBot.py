@@ -36,6 +36,10 @@ def SendMail():
         'koz.adamxd@gmail.com',
         'owocek30@gmail.com',
         msg)
+    server.sendmail(
+        'koz.adamxd@gmail.com',
+        'kamilblaszkiewicz20021120@gmail.com',
+        msg)
     print("SENDED")
     server.quit()
 while(True):
