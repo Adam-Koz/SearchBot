@@ -15,7 +15,7 @@ def CheckPrice():
     ConvertedPrice = float(Price.replace(",", "."))
     print(ConvertedPrice)
     print(title)
-    if(ConvertedPrice < 49.99):
+    if(ConvertedPrice < 55):
         SendMail()
 
 def SendMail():
@@ -31,8 +31,11 @@ def SendMail():
     server.sendmail(
         'koz.adamxd@gmail.com',
         'koz.adam1@outlook.com',
-        msg
-    )
+        msg)
+    server.sendmail(
+        'koz.adamxd@gmail.com',
+        'owocek30@gmail.com',
+        msg)
     print("SENDED")
     server.quit()
 while(True):
