@@ -15,7 +15,7 @@ def CheckPrice():
     ConvertedPrice = float(Price.replace(",", "."))
     print(ConvertedPrice)
     print(title)
-    if(ConvertedPrice < 60):
+    if(ConvertedPrice < 55):
         SendMail()
 
 def SendMail():
