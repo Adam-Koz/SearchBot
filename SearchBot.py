@@ -25,7 +25,7 @@ def SendMail():
     server.ehlo()
 
     server.login("koz.adamxd@gmail.com", "hxoodtgdbquywuvw")
-    subject = "Dziwko cena skapet spadla"
+    subject = "Cena skapet spadla"
     body = "Masz link: https://www.nike.com/pl/t/skarpety-treningowe-do-kostki-everyday-cushioned-lZ03sD/SX7667-010"
     msg = f"Subject: {subject}\n\n {body}"
     server.sendmail(
